@@ -13,3 +13,7 @@
 - 服务端：监听端口，接收客户端查询请求，通过 WireGuard 接口获得端点的 IP
 - 客户端：连接服务器，查询所需端点 IP，通过 WireGuard 接口更新本机 WireGuard 中对应端点的 IP
 
+# TODO
+- daemonize
+- 配置文件
+- windows 托盘工具
